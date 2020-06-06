@@ -1,0 +1,8 @@
+Use npm to install the whatwg-fetch library (an implementation of fetch ).
+npm install --save whatwg-fetch 
+
+With the library installed, we can make a request to an off-site server. In
+order to get access to the fetch library, we'll need to import the package in
+our script. 
+import React, { Component } from "react";
+import "whatwg-fetch";
