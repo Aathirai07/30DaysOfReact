@@ -1,0 +1,33 @@
+Flux
+Flux is a pattern for managing how data flows through a React application.
+
+There are three distinct roles for dealing with data in the flux methodology:
+    Dispatcher
+    Stores
+    Views (our components)
+
+The major idea behind Flux is that there is a single-source of truth (the
+stores) and they can only be updated by triggering actions. The actions are
+responsible for calling the dispatcher, which the stores can subscribe for
+changes and update their own data accordingly.
+When a dispatch has been triggered, and the store updates, it will emit a
+change event which the views can rerender accordingly.
+
+The key idea behind Flux is:
+    Data flows in one direction and kept entirely in the stores.
+
+REDUX
+Redux is a small-ish library that takes it's design inspiration from the Flux
+pattern, but is not itself a pure flux implementation.
+Unlike Flux, Redux does not use a dispatcher, but instead it uses pure
+functions to define data mutating functions. It still uses stores and actions,
+which can be tied directly to React components.
+
+3 Principles of Redux:
+    Updates are made with pure functions (in reducers)
+    state is a read-only property
+    state is the single source of truth (there is only one store in a Redux app)
+
+One big difference with Redux and Flux is the concept of middleware. Redux
+added the idea of middleware that we can use to manipulate actions as we
+receive them, both coming in and heading out of our application.
