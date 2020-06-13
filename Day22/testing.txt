@@ -1,0 +1,6 @@
+React App Testing Tools:
+
+1. Jasmine (http://jasmine.github.io/)
+2. Mocha (https://mochajs.org/)
+3. Jest (https://facebook.github.io/jest)
+4. Enzyme (https://github.com/airbnb/enzyme)
