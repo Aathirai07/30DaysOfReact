@@ -1,0 +1,6 @@
+Ready-to-go options of hosting services:
+    1. Surge
+    2. Github Pages
+    3. Heroku
+Explored all the above and hosted using Surge.
+Link to the hosted site: http://knotty-discussion.surge.sh/
