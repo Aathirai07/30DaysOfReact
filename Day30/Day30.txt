@@ -1,0 +1,7 @@
+I've made it to Day 30!
+
+Learnt a lot through these 30 days of training in React JS.
+
+Though I have covered a lot of topics, I need to learn more.
+
+Thanks to https://www.newline.co/fullstack-react/30-days-of-react/ for helping me in learning React for 30 days consistently with daily modules.
