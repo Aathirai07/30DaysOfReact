@@ -1,0 +1,5 @@
+Continuous Integration:
+    Written a custom build script
+    Travis CI:
+        Travis ci (https://travis-ci.org/) is a hosted continuous integration
+environment and is pretty easy to set up. 
